@@ -1,0 +1,18 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-left: 5px;
+
+}
+
+.pagination button.active {
+    font-weight: 900;
+    background-color: grey;
+}

@@ -1,0 +1,42 @@
+.movie_item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.movie_name {
+    max-width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.movie_item img {
+    box-shadow: 3rem;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.movie_item a {
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+}
+
+.movie_item:hover {
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #333;
+}
+
+.movie_rating {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 0.6rem;
+}
